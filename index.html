@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="post-page-container">
+    <div class="add-post-container">
+      <div class="add-post-title-container">
+        <h2 class="add-post-title">Create post</h2>
+      </div>
+      <hr>
+      <form onsubmit="return false;">
+        <div class="title-container">
+          <input type="text" name="title" id="title" placeholder="Give your post a title">
+        </div>
+        <hr>
+        <div class="description-container">
+          <textarea id="description" name="description" rows="5" cols="64" placeholder="Write something..."></textarea>
+        </div>
+        <hr>
+        <div class="add-post-button-container">
+          <button class="add-post-button" onclick="onAddPost()">Post</button>
+        </div>
+        <div id="error-message"></div>        
+      </form>
+    </div>
+
+    <div class="add-post-container">
+      <div class="add-post-title-container">
+        <h2 class="add-post-title" id="post-title">Titlu postare</h2>
+      </div>
+      <hr>
+      <div id="post-description">
+        Salutari dragelor!
+        Va recomand sa parcurgeti iar acest webinar si sa testati mai bine tot ce am facut pana intelegeti tot. 
+        Daca nu este ceva clar, va rog sa ma intrebati in privat.
+        Dupa ce faceti asta puteti continua cu restul task-urilor care vor fi asemanatoare.
+        Spor!
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

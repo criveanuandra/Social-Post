@@ -1,0 +1,67 @@
+body {
+  background: rgb(28, 30, 33);
+}
+
+.post-page-container {
+  width: 500px;
+  margin: auto;
+}
+
+.post-page-container .add-post-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-page-container .add-post-container .add-post-title-container {
+  text-align: center;
+  color: white;
+}
+
+.post-page-container .add-post-container .add-post-title-container .add-post-title {
+  margin: 15px 0 !important;
+}
+
+.post-page-container .add-post-container form .title-container input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  width: 95%;
+  background: rgb(28, 30, 33);
+  color: white;
+}
+
+.post-page-container .add-post-container form .description-container textarea {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  background: rgb(28, 30, 33);
+  color: white;
+}
+
+.post-page-container .add-post-container form .add-post-button-container {
+  width: 95%;
+  margin: 0 auto 10px auto;
+}
+
+.post-page-container .add-post-container form .add-post-button-container .add-post-button {
+  width: 100%;
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(35, 116, 225);
+  color: white;
+  cursor: pointer;
+} 
+
+.post-page-container .add-post-container #post-description {
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.post-page-container .add-post-container #error-message {
+  color: red;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
